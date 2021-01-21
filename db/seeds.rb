@@ -6,6 +6,27 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Ingredient.create(name: "lemon")
-Ingredient.create(name: "ice")
-Ingredient.create(name: "mint leaves")
+puts "Cleaning database..."
+Ingredient.destroy_all
+puts "Creating ingredient..."
+Ingredient.create(name: "Rum")
+Ingredient.create(name: "Gin")
+Ingredient.create(name: "Mint leaves")
+Ingredient.create(name: "Rosmary")
+Ingredient.create(name: "Sugar")
+Ingredient.create(name: "Salt")
+Ingredient.create(name: "Whiskey")
+Ingredient.create(name: "Lemon juice")
+Ingredient.create(name: "Orange juice")
+Ingredient.create(name: "Tomato")
+Ingredient.create(name: "Martini dry")
+Ingredient.create(name: "Brandy")
+Ingredient.create(name: "Triple Sec")
+Ingredient.create(name: "Vodka")
+Ingredient.create(name: "Cachaca")
+Ingredient.create(name: "Lime")
+Ingredient.create(name: "Campari")
+Ingredient.create(name: "Vermouth")
+Ingredient.create(name: "Soda")
+Ingredient.create(name: "Tequila")
+puts "Seeding succesful"
